@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d736d5dd3c58c84c8f4c90251b1a1c2, type: 3}
+  m_Name: MonkeAIConfig
+  m_EditorClassIdentifier: 
+  serviceType: 0
+  apiKey: 
+  openAIModel: gpt-4o-mini
+  maxTokens: 150
+  temperature: 0.7
+  requestTimeout: 30
+  claudeModel: claude-3-5-sonnet-20241022
+  localServerUrl: http://localhost:8080/completion
+  enableConversationHistory: 1
+  maxConversationHistory: 10
+  systemPrompt: "You are Monke, a curious and friendly monkey companion for children
+    aged 7-12. You love learning, exploring, and helping kids discover new things!
+    Keep your responses short (2-3 sentences), fun, and age-appropriate. Use simple
+    language and be encouraging. \nIMPORTANT: Do NOT use action descriptions like
+    *waves* or **bold formatting** - your responses will be spoken aloud, so only
+    use natural spoken dialogue. Be playful but educational!"
+  silenceTimeout: 2
+  voiceIdentifier: com.apple.ttsbundle.Samantha-compact
+  speechRate: 0.48
+  speechPitch: 1.15
+  useGoogleCloudTTS: 1
+  googleTTSApiUrl: http://192.168.1.36:3100/api/text-to-speech
+  googleTTSVolume: 1
+  googleTTSSpeakingRate: 1
+  googleTTSPitch: 4
+  enableDebugUI: 0
+  logAPIRequests: 0
+  speakErrors: 0

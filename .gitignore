@@ -1,0 +1,52 @@
+# Unity/IDE
+Library/
+Temp/
+Logs/
+Obj/
+Build/
+Builds/
+UserSettings/
+MemoryCaptures/
+.vs/
+.vscode/
+.idea/
+.DS_Store
+*.csproj
+*.sln
+*.unityproj
+*.user
+*.userprefs
+*.pidb
+*.suo
+*.tmp
+*.bak
+*.mdb
+*.pdb
+*.opendb
+*.VC.db
+
+# Platform/packaging
+*.apk
+*.aab
+*.app
+*.unitypackage
+
+# Addressables/Streaming
+Assets/StreamingAssets/aa.meta
+Assets/StreamingAssets/aa/**
+Assets/AddressableAssetsData/*/*.bin*
+
+# Node / premium-tts
+# Node / premium-tts
+premium-tts/node_modules/
+premium-tts/package-lock.json
+premium-tts/.env
+premium-tts/google-cloud-key.json
+
+# Platform builds
+iOSBuild/
+
+# Plastic / tooling
+/.plastic/
+**/*.private
+**/*.private.meta
