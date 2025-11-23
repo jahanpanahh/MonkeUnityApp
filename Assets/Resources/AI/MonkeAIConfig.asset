@@ -33,7 +33,7 @@ MonoBehaviour:
   speechRate: 0.48
   speechPitch: 1.15
   useGoogleCloudTTS: 1
-  googleTTSApiUrl: http://192.168.1.36:3100/api/text-to-speech
+  googleTTSApiUrl: https://monkeunityapp.onrender.com/api/text-to-speech
   googleTTSVolume: 1
   googleTTSSpeakingRate: 1
   googleTTSPitch: 4
